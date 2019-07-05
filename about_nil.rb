@@ -33,6 +33,11 @@ class AboutNil < Neo::Koan
     # or
     #    obj == nil
     # Why?
+    # I think nil? is better, 'couse == is a micro comparison 
+    # with the other object to determine if it is the same object.
+    # All the objects will return false to the .nil? message 
+    # except for the object nil itself
+
   end
 
 end
