@@ -12,7 +12,6 @@ require 'about_strings'
 require 'about_symbols'
 require 'about_regular_expressions'
 require 'about_methods'
-# here i stayed
 in_ruby_version("2") do
   require 'about_keyword_arguments'
 end
@@ -27,6 +26,7 @@ require 'about_blocks'
 require 'about_sandwich_code'
 require 'about_scoring_project'
 require 'about_classes'
+# here i stopped
 require 'about_open_classes'
 require 'about_dice_project'
 require 'about_inheritance'
